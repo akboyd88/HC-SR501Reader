@@ -2,13 +2,17 @@
   "name": "HC-SR501Reader",
   "version": "0.0.0",
   "description": "reads GPIO inputs for HC-SR501 motion sensor",
-  "main": "motionReader.js",
+  "main": "HC-SR501Reader.js",
   "scripts": {
+    "run": "node HC-SR501Reader.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "rpi-gpio": "^0.7.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.3"
   }
 }
